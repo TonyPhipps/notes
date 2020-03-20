@@ -44,5 +44,4 @@ Recommended Android Apps, focusing on minimal app permission and maximum privacy
 - [Spritebox Code Hour](https://play.google.com/store/apps/details?id=com.lightbot.SpriteBoxCoding)
 - [Lightbot Code Hour](https://play.google.com/store/apps/details?id=com.lightbot.lightbothoc)
 - [Dipdap](https://play.google.com/store/apps/details?id=air.air.uk.co.cubeinteractive.dipdap.paid)
-- [World of Goo](https://play.google.com/store/apps/details?id=com.twodboy.worldofgoofull
-- )
+- [World of Goo](https://play.google.com/store/apps/details?id=com.twodboy.worldofgoofull)
