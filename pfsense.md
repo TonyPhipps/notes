@@ -140,6 +140,7 @@ This is basically hard-mode. You will have to create Pass rules above this rule 
   - Check Transparent HTTP Proxy
   - Check Bypass Proxy for Private Address Destination 
   - Check HTTPS/SSL Interception
+    - NOTE: Using HTTPS/SSL interception may cause SSL_ERROR_RX_RECORD_TOO_LONG errors
   - Set SSL/MITM Mode to Splice All
   - Set CA to pfSense
   - Check Enable Access Logging
