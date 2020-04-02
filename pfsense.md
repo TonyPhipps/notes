@@ -107,6 +107,7 @@ This is basically hard-mode. You will have to create Pass rules above this rule 
 - Navigate to Firewall > pfBlockerNG > Logs
   - Select Log/File selection > dnsbl.log
   - Review Rejects in the log file
+- Or open an SSH connection and monitor live with  ```tail -f /var/log/pfblockerng/dnsbl.log```
 
 
 ## Web Proxy Category Blocking with SquidGuard
