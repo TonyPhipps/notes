@@ -1,0 +1,3 @@
+# Use windows Credential Store to handle credentials
+git config --global credential.helper wincred
+
