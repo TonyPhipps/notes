@@ -8,8 +8,6 @@ Compare cell B2 to LookupSheet's column B and find a matching row, then populate
 =INDEX('LookupSheet'!A:A,MATCH(B2,'LookupSheet'!B:B,0))
 ```
 
-
-
 Make the contents of this cell match that of another after a string substitution
 ```
 =SUBSTITUTE(A2,"currentstring","newstring")
@@ -18,4 +16,9 @@ Make the contents of this cell match that of another after a string substitution
 Two or more string replacements (copy/paste into A2 to continue nesting)
 ```
 =SUBSTITUTE(SUBSTITUTE(A2,"currentstring1","newstring1"),"currentstring2","newstring2")
+```
+
+Hide "#N/A" when formulas error-out
+```
+=IFERROR(your formula here,"") 
 ```
