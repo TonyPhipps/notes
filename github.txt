@@ -1,6 +1,5 @@
 # Use windows Credential Store to handle credentials
 git config --global credential.helper wincred
 
-# Use Git Credential Manager for Windows to handle creds
-# https://github.com/microsoft/Git-Credential-Manager-for-Windows
-git config --global credential.helper manager
+# Use Git Credential Manager for Windows to handle creds, especially for locally-managed git servers
+# https://github.com/microsoft/Git-Credential-Manager-Core
