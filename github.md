@@ -6,3 +6,6 @@ git config --global credential.helper wincred
 
 # Edit global configs (can set/blank credential manager manually)
 git config --global --edit
+
+# Purge any line containing "word" in all file histories in the repository.
+git filter-branch --tree-filter "find . -type f -exec sed -i -e '/$*word/d' {} \;" -f
