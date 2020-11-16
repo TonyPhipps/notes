@@ -3,4 +3,7 @@
 
 Example with data in D: drive
 
-```mklink /j "C:\Program Files\Mozilla Firefox" "D:\Mozilla Firefox"```
+```
+mkdir "D:\Mozilla Firefox"
+mklink /j "C:\Program Files\Mozilla Firefox" "D:\Mozilla Firefox"
+```
