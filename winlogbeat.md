@@ -1,4 +1,4 @@
-Truncate everything the initial message, as this content is already parsed. Should reduce log size by ~50%
+Truncate everything in message after the first sentence, as this content is already parsed. Should reduce log size by ~50%
 ```
 # ================================= Processors =================================
 processors:
