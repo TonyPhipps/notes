@@ -9,3 +9,11 @@ processors:
       target_prefix: ""
       overwrite_keys: true
 ```
+Add a winlogbeatymlversion field
+```
+# ================================= Processors =================================
+processors:
+  - add_fields:
+      fields:
+        winlogbeatymlversion: '2020-11-24.2'
+```
