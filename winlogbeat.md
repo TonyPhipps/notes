@@ -7,4 +7,5 @@ processors:
       tokenizer: "%{message}."
       field: "message"
       target_prefix: ""
+      overwrite_keys: true
 ```
