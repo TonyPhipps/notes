@@ -9,7 +9,7 @@ processors:
       target_prefix: ""
       overwrite_keys: true
 ```
-Add a winlogbeatymlversion field
+Add a winlogbeatymlversion field. This can help you track which version of your config file was used for each event parsed.
 ```
 # ================================= Processors =================================
 processors:
