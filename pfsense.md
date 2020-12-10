@@ -101,6 +101,11 @@ This is basically hard-mode. You will have to create Pass rules above this rule 
 - Navigate to Firewall > pfBlockerNG > Update
   - Select 'Force' option Reload
   - Click Run
+  
+#### Disable Logging
+Logging has caused me issues with some sites that use HSTS
+- Navigate to Firewall > pfBlockerNG > IP > GeoIP
+- Set Logging for all items to Disabled
 
 
 #### Troubleshooting & Log Review
