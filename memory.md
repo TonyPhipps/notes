@@ -10,10 +10,20 @@
 - Dumpit
 - FTK Imager Lite
 - Sysinternals procdump.exe
-- 
+
+
+# Parsing
+- Autotimeliner
+- log2timeline/plaso and psort
 
 
 # Analysis
+- Timeline Explorer
+- TimeSketch
+
+
+# Parsing+Analysis
 - Volatility
 - FTK
 - EnCase
+- SIFT
