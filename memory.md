@@ -10,6 +10,7 @@
 - Dumpit
 - FTK Imager Lite
 - Sysinternals procdump.exe
+- Sysinternals process hacker
 
 
 # Parsing
