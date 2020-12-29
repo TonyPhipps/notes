@@ -1,6 +1,6 @@
 ### Force Outlook to preview and send in Plain Text
 - HKEY_CURRENT_USER\Software\Microsoft\Office\version\Outlook\Options\Mail\ReadAsPlain - (DWORD) 1 (Decimal)
-- HKEY_CURRENT_USER\Software\Microsoft\Office\version\Outlook\Options\Mail\EditorPrefernce - (DWORD) (Decimal)
+- HKEY_CURRENT_USER\Software\Microsoft\Office\version\Outlook\Options\Mail\EditorPreference - (DWORD) (Decimal)
 ```
 Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Outlook\Options\Mail]
