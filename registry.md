@@ -5,6 +5,6 @@ HKEY_CURRENT_USER\Software\Microsoft\Office\version\Outlook\Options\Mail\ReadAsP
     "ReadAsPlain"=dword:00000001
 
 ## GPO
-GPO templates : https://www.howto-outlook.com/howto/policies.htm
+GPO templates: https://www.microsoft.com/en-us/download/details.aspx?id=49030
 User Configuration -> Policies -> Administrative Templates -> Microsoft Outlook XXXX -> Outlook Options -> Mail Format -> Internet Formatting -> Message Format "Set message format" is "Enabled: Plain Text"
 User Configuration -> Policies -> Administrative Templates -> Microsoft Outlook XXXX -> Outlook Options -> Preferences -> E-mail Options -> "Read Email as Plaint Text " is "Enabled"
