@@ -22,3 +22,11 @@ Hide "#N/A" when formulas error-out
 ```
 =IFERROR(your formula here,"") 
 ```
+
+Convert Time Format and Timezone Offet
+
+Fri, Jan 11 2021 12:24AM MST
+
+```="05:00" + (DATEVALUE(MID(C2, 10, 2) & "-" & MID(C2, 6, 3) & "-" & MID(C2, 13, 4)) + (MID(C2, 18, 5) & " " & MID(C2, 23, 2)))```
+
+Where "05:00" is the time offset, currently adding 5h to make it GMT
